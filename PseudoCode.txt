@@ -1,0 +1,16 @@
+Algorithm 1
+
+
+highest_mark = 0
+lowest_mark = 0
+
+FOR i FROM 1 TO 30
+    IF students_marks[i] > highest_mark
+        highest_mark = students_marks[i]
+    ELSE IF students_marks[i] < lowest_mark
+        lowest_mark = students_marks[i]
+    END IF
+END FOR
+
+Print "Highest Mark: " + highest_mark
+Print "Lowest Mark: " + lowest_mark

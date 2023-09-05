@@ -35,5 +35,7 @@ public class Assignment1
         for (int i = 0; i < 30; i++) {
             System.out.println("Student " + (i + 1) + " Mark: " + studentMarks[i]);
         }
+
+        // F5: prints the highest mark and the lowest mark on the screen.
     }
 }
