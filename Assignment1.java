@@ -54,6 +54,7 @@ public class Assignment1
         System.out.println("Highest Mark: " + highestMark);
         System.out.println("Lowest Mark: " + lowestMark);
 
+        // F6: calculates the mean and standard deviation of the marks and print the result on the screen.
 
     }
 }

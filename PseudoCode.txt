@@ -1,5 +1,5 @@
-Algorithm 1
-
+ALGORITHM-1
+----------------------------------------------------------
 
 highest_mark = 0
 lowest_mark = 0
@@ -14,3 +14,26 @@ END FOR
 
 Print "Highest Mark: " + highest_mark
 Print "Lowest Mark: " + lowest_mark
+
+==========================================================
+
+ALGORITHM-2
+----------------------------------------------------------
+
+sum_of_marks = 0    
+mean = 0
+sum_of_squared_differences = 0
+
+FOR i FROM 1 TO 30
+    sum_of_marks = sum_of_marks + students_marks[i]
+END FOR
+mean = sum_of_marks / 30
+
+FOR i FROM 1 TO 30
+    squared_difference = (students_marks[i] - mean)^2
+    sum_of_squared_differences = sum_of_squared_differences + squared_difference
+END FOR
+standard_deviation = sqrt(sum_of_squared_differences / 30)
+
+Print "Mean: " + mean
+Print "Standard Deviation: " + standard_deviation
