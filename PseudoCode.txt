@@ -23,6 +23,7 @@ ALGORITHM-2
 sum_of_marks = 0    
 mean = 0
 sum_of_squared_differences = 0
+standard_deviation = 0
 
 FOR i FROM 1 TO 30
     sum_of_marks = sum_of_marks + students_marks[i]
