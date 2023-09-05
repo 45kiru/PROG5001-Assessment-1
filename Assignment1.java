@@ -37,5 +37,23 @@ public class Assignment1
         }
 
         // F5: prints the highest mark and the lowest mark on the screen.
+        int highestMark = 0;
+        int lowestMark = 0;
+
+        for (int i = 0; i < 30; i++)
+        {
+            if (studentMarks[i] > highestMark)
+            {
+                highestMark = studentMarks[i];
+            } else if (studentMarks[i] < lowestMark)
+            {
+                lowestMark = studentMarks[i];
+            }
+        }
+
+        System.out.println("Highest Mark: " + highestMark);
+        System.out.println("Lowest Mark: " + lowestMark);
+
+
     }
 }
