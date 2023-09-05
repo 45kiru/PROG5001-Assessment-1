@@ -18,7 +18,7 @@ public class Assignment1
             do
             {
                 System.out.print("Enter mark for Student " + (i + 1) + ": ");
-                int mark = scanner.nextInt();
+                float mark = scanner.nextFloat();
                 if((mark >= 0) && (mark <= 30)) // must accept only valid mark (i.e. between 0 and 30) inputs by users.
                 {
                     studentMarks[i] = mark;
