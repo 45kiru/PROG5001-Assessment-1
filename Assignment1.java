@@ -29,5 +29,11 @@ public static Assignment1
                 }
             } while (true);
         }
+
+        // F4: prints the assignment name following the 'students' marks after users have finished entering the marks.
+        System.out.println("Assignment Name: " + assignmentName);
+        for (int i = 0; i < 30; i++) {
+            System.out.println("Student " + (i + 1) + " Mark: " + studentMarks[i]);
+        }
     }
 }
